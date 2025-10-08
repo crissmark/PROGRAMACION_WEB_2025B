@@ -1,0 +1,90 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+ 
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 2em;
+  color: #ffcc70;
+}
+.link{                   
+    color: white;             /* Quita el color azul del link */
+    text-decoration: none;    /* Quita la línea debajo */
+    
+}
+.inicio{  
+                 
+    color: black;             /* Quita el color azul del link */
+    text-decoration: none;    /* Quita la línea debajo */
+   font-weight: bold;     /* Negrita */
+   font-size: 20px; 
+}
+.inicio:hover{
+  color: red;           /* Cambia el color al pasar el cursor */
+  font-size: 22px;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(18, 60px);
+  gap: 4px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.elem {
+  border-radius: 6px;
+  padding: 5px;
+  font-weight: bold;
+  background: #444;
+  border: 1px solid #222;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s;
+}
+.elem:hover {
+  transform: scale(1.1);
+  border-color: white;
+}
+
+.elem span {
+  font-size: 9px;
+  color: #eee;
+}
+
+/* Colores por grupo */
+#Malcalino { background: #ff6666; }
+#metaloides { background: #ffa366; }
+#mtransi { background: #66b3ff; }
+#Mpost { background: #cc99ff; }
+#Malca { background: #99cc66; }
+#no-metal { background: #66ff99; }
+#Gases { background: #ffccff; }
+#lantanidos { background: #f3c93e; }
+#actonoides { background: #e38d5d; }
+#desconocidas { background: #888; }
+
+/* Bloques Lantánidos y Actínidos */
+.bloques {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.fila-lant, .fila-act {
+  display: flex;
+  gap: 4px;
+}
+
+/* Espacios vacíos */
+.vacio {
+  visibility: hidden;
+}
