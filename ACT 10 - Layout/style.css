@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c85c5c;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #c85c5c;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.buscador label {
+    margin-right: 5px;
+    color: black;
+}
+
+/* LAYOUT PRINCIPAL */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* COLUMNA IZQUIERDA */
+.izquierda {
+    width: 20%;
+    float: left;
+}
+
+.otras-noticias, .publicidad, .menu-lateral {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.otras-noticias h3 {
+    background-color: #f2f2f2;
+    padding: 5px;
+}
+
+.publicidad {
+    border: 1px dashed orange;
+}
+
+.publicidad h3 {
+    color: orange;
+}
+
+.menu-lateral a {
+    display: block;
+    background-color: #ddd;
+    padding: 8px;
+    margin: 3px 0;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.menu-lateral a:hover {
+    background-color: #bbb;
+}
+
+/* CONTENIDO CENTRAL */
+.contenido {
+    width: 55%;
+    float: left;
+    padding: 0 20px;
+    justify-content: center;
+}
+
+.contenido article {
+    margin-bottom: 20px;
+}
+
+.contenido h2 {
+    color: orange;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.contenido img {
+    width: 100%;
+    max-width: 350px;
+    float: left;
+    margin-right: 10px;
+}
+
+.contenido p {
+    text-align: justify;
+}
+
+.contenido a {
+    color: orange;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+/* COLUMNA DERECHA */
+.derecha {
+    width: 20%;
+    float: left;
+}
+
+.derecha section {
+    border: 1px solid #00bcd4;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.derecha h3 {
+    background-color: #00bcd4;
+    color: white;
+    padding: 5px;
+}
+
+/* FOOTER */
+footer {
+
+    position: fixed; 
+    bottom: 0; 
+    background-color: #26617b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
