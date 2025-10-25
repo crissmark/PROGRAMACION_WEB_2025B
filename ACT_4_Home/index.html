@@ -1,54 +1,120 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Home</title>
-</head>
-<body>
-  <h1>Programación Web (2025B)</h1>
-  
-  <hr>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Programación Web (2025B)</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    >
+  </head>
 
-  <p>Ejercicios Desarrollados en la materia:</p>
+  <body class="bg-light">
 
-  <h2>HTML (HyperText Markup Language)</h2>
-  <ol>
-    <li><a href="#">Actividad 4 - Home</a></li>
-    <li><a href="ACT 5 - Menú/index_act5.html">Actividad 5 - Menú</a></li>
-  </ol>
-  <hr>
-  <h2>CSS</h2>
-  <ul>
-    <li><a href="#">Actividad</a></li>
-    <li><a href="#">Actividad</a></li>
-    <li><a href="#">Actividad</a></li>
-  </ul>
-  <hr>
-  <h2>JavaScript</h2>
-  <ol>
-    <li><a href="#">Actividad</a></li>
-    <li><a href="#">Actividad</a></li>
-    <li><a href="#">Actividad</a></li>
-  </ol>
-  <hr>
-  <h2>PHP</h2>
-  <ul>
-    <li><a href="#">Actividad</a></li>
-    <li><a href="#">Actividad</a></li>
-    <li><a href="#">Actividad</a></li>
-  </ul>
-  <hr>
-  <h2>MySQL</h2>
-  <ol>
-    <li><a href="#">Actividad</a></li>
-    <li><a href="#">Actividad</a></li>
-    <li><a href="#">Actividad</a></li>
-  </ol>
-  <hr>
-  <footer>
-    <p>Creado por HENOCH </p>
-  </footer>
-</body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Programación Web (2025B)</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="container">
+      <div class="text-center mb-5">
+        <h1 class="fw-bold">Ejercicios Desarrollados</h1>
+        <p class="text-muted">Materias del curso</p>
+      </div>
+
+      <!-- HTML -->
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header bg-danger text-white fw-semibold">
+          HTML (HyperText Markup Language)
+        </div>
+        <div class="card-body">
+          <ol class="list-group list-group-numbered">
+            <li class="list-group-item"><a href="#" class="text-decoration-none">Actividad 4 - Home</a></li>
+            <li class="list-group-item"><a href="ACT 5 - Menú/index_act5.html" class="text-decoration-none">Actividad 5 - Menú</a></li>
+            <li class="list-group-item"><a href="ACT 6 - Tabla/Tabla.html" class="text-decoration-none">Actividad 6 - Tabla</a></li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- CSS -->
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header bg-info text-white fw-semibold">
+          CSS
+        </div>
+        <div class="card-body">
+          <ul class="list-group">
+            <li class="list-group-item"><a href="ACT 7 - Noticia/Noticia.html" class="text-decoration-none">Actividad 7 - Noticia</a></li>
+            <li class="list-group-item"><a href="ACT 8 - Casa/index.html" class="text-decoration-none">Actividad 8 - Casa</a></li>
+            <li class="list-group-item"><a href="ACT 9 - Tabla Periódica/Elementos.html" class="text-decoration-none">Actividad 9 - Tabla Periódica</a></li>
+            <li class="list-group-item"><a href="ACT 10 - Layout/layout.html" class="text-decoration-none">Actividad 10 - Layout</a></li>
+            <li class="list-group-item"><a href="/ACT 11 - Grid/menuGrid.html" class="text-decoration-none">Actividad 11 - Grid</a></li>
+            <li class="list-group-item"><a href="index.html" class="text-decoration-none">Actividad 12 - Bootstrap Home</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- JAVASCRIPT -->
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header bg-warning fw-semibold">
+          JavaScript
+        </div>
+        <div class="card-body">
+          <ol class="list-group list-group-numbered">
+            <li class="list-group-item"><a href="#" class="text-decoration-none">Actividad</a></li>
+            <li class="list-group-item"><a href="#" class="text-decoration-none">Actividad</a></li>
+            <li class="list-group-item"><a href="#" class="text-decoration-none">Actividad</a></li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- PHP -->
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header bg-secondary text-white fw-semibold">
+          PHP
+        </div>
+        <div class="card-body">
+          <ul class="list-group">
+            <li class="list-group-item"><a href="#" class="text-decoration-none">Actividad</a></li>
+            <li class="list-group-item"><a href="#" class="text-decoration-none">Actividad</a></li>
+            <li class="list-group-item"><a href="#" class="text-decoration-none">Actividad</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- MYSQL -->
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header bg-success text-white fw-semibold">
+          MySQL
+        </div>
+        <div class="card-body">
+          <ol class="list-group list-group-numbered">
+            <li class="list-group-item"><a href="#" class="text-decoration-none">Actividad</a></li>
+            <li class="list-group-item"><a href="#" class="text-decoration-none">Actividad</a></li>
+            <li class="list-group-item"><a href="#" class="text-decoration-none">Actividad</a></li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <footer class="text-center mt-5 py-4 border-top">
+        <p class="mb-0 text-muted">Creado por <strong>HENOCH</strong></p>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
 
