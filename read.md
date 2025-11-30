@@ -5,7 +5,7 @@ Este proyecto es una aplicación web completa para la gestión escolar, diseñad
 
 ---
 
-## 🚀 Enlace al Proyecto awardSpace
+## Enlace al Proyecto awardSpace
 
 Puedes probar la aplicación desplegada en el siguiente enlace:
 **http://act4-home.atwebpages.com/**
